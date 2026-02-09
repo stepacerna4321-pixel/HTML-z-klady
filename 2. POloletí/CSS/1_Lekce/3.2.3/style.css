@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+section {
+    margin: 16px;
+    padding: 16px;
+
+}
+
+.example {
+    width: 200px;
+    height: 200px;
+    background: steelblue;
+    color: aliceblue;
+    display: grid;
+    place-items: center;
+}
+
+.parent {
+    background: lightgreen;
+    width: 50%;
+    height: 200px;
+}
+
+.child {
+    background-color: lightcoral;
+    width: 50%;
+    height: 50%;
+}
+
+.example2 {
+    width: 200px;
+    height: 200px;
+    background: lightpink;
+    display: grid;
+    place-items: center;
+}
+
+.example3 {
+    width: 50%;
+    height: 50%;
+    background: lightgreen;
+}
