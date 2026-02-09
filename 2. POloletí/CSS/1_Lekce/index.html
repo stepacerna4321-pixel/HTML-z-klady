@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><link rel="stylesheet" href="./style.css">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <style>
-    h1, h2, h3 {
-        color:salmon
+    a {
+        text-decoration: none;
+        display: block;
+        color: black;
+        text-align: center;
+        transition: transform 0.25s ease, color 0.25 ease;
+    }
+    a:hover {
+        text-decoration: underline;
+        font-weight: bold;
+        transform: scale(1.20);
+        color: blue;
+    }
+    div {
+        background-color: rgb(23138, 222, 168);
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 25px;
+        transition: transform 0.25 ease;
+    }
+    div:hover {
+        transform: scale(1.20);
+    }
+    h2 {
+        text-align: center;
     }
 </style>
 <body>
-    <h1>Stylování CSS</h1>
-<!-- INLINE STYL -->
-    <p style="color: aqua;">Inline stylování</p>
-<!-- INTERNAL STYL -->
- <h1>Nadpis první úrovnvě</h1>
- <h2>Nadpis druhé úrovnvě</h2>
- <h3>Nadpis třetí úrovnvě</h3>
- <!-- EXTERNÍ STYL -->
-  <p>První odstavec</p>
-  <p>Druhý odstavec</p>
-  <p>Třetí odstavec</p>
+ <section>
+    <h2>CSS portfolio prací</h2>
+    <div>
+        <a href="./1_lekce/">1.lekce</a>
+        <a href="./2_lekce/">2.lekce</a>
+        <a href="./3_lekce/">3.lekce</a>
+    </div>
+ </section>   
 </body>
 </html>
