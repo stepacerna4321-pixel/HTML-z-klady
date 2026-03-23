@@ -1,0 +1,20 @@
+div {
+    width: 800px;
+    height: 200px;
+    border-radius: 15px;
+    background: lavender;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+h2 {
+    color: slategrey;
+    text-align: center;
+}
+h3 {
+    color: brown;
+}
+p {
+    color: blueviolet;
+}
