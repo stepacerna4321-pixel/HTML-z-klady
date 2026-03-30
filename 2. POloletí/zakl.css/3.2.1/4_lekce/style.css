@@ -1,0 +1,48 @@
+div {
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    background: sandybrown;
+    place-items: center
+}
+
+.example {
+    width: 80px;
+    height: 80px;
+    border-radius: 500px;
+    background: lightcoral;
+    display: grid;
+    place-items: center;
+    color: antiquewhite;
+
+}
+
+h1 {
+    text-align: center;
+    
+}
+h3 {
+    text-align: center;
+    color: slategray;
+}
+
+p {
+    text-align: center;
+}
+.b1 {
+    display: inline-block;
+    background: lightsalmon;
+    width: 95px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.a1 {
+    width: 150px;
+    height: 50px;
+    border-radius: px;
+    background: lightcoral;
+    display: grid;
+    place-items: center;
+    color: antiquewhite;
+}
